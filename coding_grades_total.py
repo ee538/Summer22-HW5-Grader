@@ -29,7 +29,7 @@ for q_num in q_nums:
 		print("Q1:", pass_num, "/", 14, "passed | score:", q1_score)
 		total_coding_score += q1_score
 	elif q_num == 2:
-		f pass_num <= 8:
+		if pass_num <= 8:
 			q1_score = pass_num * 3
 		elif pass_num == 9:
 			q1_score = 30
