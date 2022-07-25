@@ -33,7 +33,7 @@ for q_num in q_nums:
 			q2_score = pass_num * 3
 		elif pass_num == 9:
 			q2_score = 30
-		print("Q2:", pass_num, "/", 1, "passed | score:", q2_score)
+		print("Q2:", pass_num, "/", 9, "passed | score:", q2_score)
 		total_coding_score += q2_score
 	elif q_num == 3:
 		if pass_num <= 6:
